@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "236056110958",
+    "firebase_url": "https://luckyblog-5dbee.firebaseio.com",
+    "project_id": "luckyblog-5dbee",
+    "storage_bucket": "luckyblog-5dbee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236056110958:android:420f414d0633efb3bd037f",
+        "android_client_info": {
+          "package_name": "com.example.fireblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236056110958-4quuqgidhqddud5fp95r4puul5am3qc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fireblog",
+            "certificate_hash": "201f1f90d5686e94d31f2ee6b27a14d61e0f9d1a"
+          }
+        },
+        {
+          "client_id": "236056110958-ka05ksif34ihv33osi03aaot2bbhidbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEF-SwQzPkcr7uKouOxCh8MI14QE3u8PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236056110958-ka05ksif34ihv33osi03aaot2bbhidbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236056110958:android:f45fc26e3a0cbc68bd037f",
+        "android_client_info": {
+          "package_name": "com.example.luckyblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236056110958-ka05ksif34ihv33osi03aaot2bbhidbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEF-SwQzPkcr7uKouOxCh8MI14QE3u8PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236056110958-ka05ksif34ihv33osi03aaot2bbhidbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236056110958:android:dcd81b997864e085bd037f",
+        "android_client_info": {
+          "package_name": "phone_number_checker.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236056110958-ka05ksif34ihv33osi03aaot2bbhidbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEF-SwQzPkcr7uKouOxCh8MI14QE3u8PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236056110958-ka05ksif34ihv33osi03aaot2bbhidbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236056110958:android:a4edb642ad498221bd037f",
+        "android_client_info": {
+          "package_name": "www.ocashup.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236056110958-ka05ksif34ihv33osi03aaot2bbhidbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEF-SwQzPkcr7uKouOxCh8MI14QE3u8PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236056110958-ka05ksif34ihv33osi03aaot2bbhidbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

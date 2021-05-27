@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:padding="50dp"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/registerLayout">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:background="@drawable/my_coner"
+        android:padding="15dp"
+        android:hint="Name..">
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:background="@drawable/my_coner"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email..">
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:background="@drawable/my_coner"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:hint="Password..">
+
+    </EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cpassword"
+        android:background="@drawable/my_coner"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:hint="Confirm Password..">
+
+    </EditText>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_coner"
+
+        android:text="Next"
+        android:id="@+id/next">
+
+    </Button>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/accountSetup">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/profilePic"
+            android:src="@drawable/avatar_png">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="16dp"
+            android:text="Choose Profile Picture"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_coner"
+
+            android:text="Sign Up"
+            android:id="@+id/signup">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

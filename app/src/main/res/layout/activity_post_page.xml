@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostPage"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <ImageButton
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/photos_icon"
+            android:id="@+id/selectImage"
+            android:scaleType="centerCrop"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/one"
+        android:id="@+id/two"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/title"
+            android:hint="Title"
+            android:background="@drawable/my_coner"
+            android:padding="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/two"
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:background="@drawable/my_coner"
+            android:paddingTop="30dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+           android:paddingBottom="30dp"
+            android:id="@+id/body"
+            android:hint="Body"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/whitecolor"
+            android:id="@+id/submit">
+
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
